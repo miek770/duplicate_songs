@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "duplicate-songs"
+version = "0.1.0"
+description = "Finds and handles duplicates of songs in a directory and its subdirectories, based on song metadata."
+authors = ["Michel Lavoie <lavoie.michel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mutagen = "^1.47.0"
+rich-click = "^1.8.3"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.8.0"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
