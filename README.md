@@ -2,6 +2,8 @@
 
 This Python project identifies and will eventually manage duplicate MP3 files in a specified directory based on metadata such as title, artist, album, and duration. Using the `mutagen` library, the script recursively scans a directory to locate potential duplicates.
 
+It's also an excuse to try out `poetry`.
+
 ## Features
 
 - Recursively search directories for MP3 files.
